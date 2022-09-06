@@ -10,6 +10,7 @@ public class Doctor extends Employee{
         super(id, name, phone, email, type);
         this.coefficient = coefficient;
     }
+
     @Override
     public String toString() {
         return super.toString() + getCoefficient();

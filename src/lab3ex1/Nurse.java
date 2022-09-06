@@ -12,6 +12,7 @@ public class Nurse extends Employee{
         this.department = department;
         this.allowance = allowance;
     }
+
     @Override
     public String toString() {
         return super.toString() + getDepartment() + " | " + getAllowance();
